@@ -12,10 +12,6 @@ import javax.mail.Store;
 
 public class DeleteInbox {
 
-	public static void main(String[] args) {
-		DeleteInbox deleteInbox = new DeleteInbox();
-		deleteInbox.deleteAllMsg();
-	}
 
 	private Properties setProperties() {
 		Properties props = new Properties();
